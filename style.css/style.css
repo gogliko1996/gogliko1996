@@ -1,0 +1,621 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header {
+    background-color:rgb(0, 0, 0, 0.1);
+    width:100%;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+}
+h1 a img {
+    margin-left: 150px;
+}
+
+.nav1 ul {
+    width: 500px;
+    margin-left: 350px; 
+    display: flex;
+    justify-content: space-between;
+}
+ul li a {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover{
+    color: #f7e600;
+}
+.website {
+    width:100%;
+    height: 700px;
+    padding: 300px 150px;
+    border-top: 1px solid #000000;
+    background-image: url(../img/1622030653.jpg.webp);
+    background-repeat: no-repeat;
+    animation:  bacgkroundimg 10s infinite;
+}
+@keyframes bacgkroundimg {
+    0%{background-image: url(../img/1622030653.jpg.webp);}
+    40%{background-image: url(../img/1622021868.jpg.webp);}
+    80%{background-image: url(../img/1622020248.jpg.webp);}
+}
+.text {
+    color: #e40d0d;
+    width: 220px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f7e600;
+}
+.website p {
+    width: 436px;
+    margin-top: 26px;
+    font-size: 24px;
+}
+.website a {
+    color: #000000;
+    font-size: 26px;
+}
+.website a:hover {
+    color: #f7e600;
+}
+.box {
+    width: 1700px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.slide {
+    background-color: #ffffff;
+    width: 900px;
+    height: 250px;
+    border-left: 2px solid rgb(0, 0,0 ,0.2);
+    border-top: 2px solid rgb(0, 0,0 ,0.2);
+    border-bottom: 2px solid rgb(0, 0,0 ,0.2);
+    border-radius: 10px 0px 0px 10px;
+}
+.slide-1{
+    width: 900px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slide-1 div {
+    width: 300px;
+    height: 100px;
+    background-repeat:no-repeat;
+}
+.slide-2 {
+    animation: slide 16s infinite;
+}
+.slide-3 {
+    animation: slide 14s infinite;
+}
+.slide-4 {
+    animation: slide 12s infinite;
+}
+@keyframes slide {
+    0%{background-image: url(../img/1581258612.jpg.webp);}
+    10%{background-image: url(../img/1581258757.jpg.webp);}
+    20%{background-image: url(../img/1581258782.jpg.webp);}
+    30%{background-image: url(../img/1581258883.jpg.webp);}
+    40%{background-image: url(../img/1581258883.jpg\ \(1\));}
+    50%{background-image: url(../img/1581258925.jpg.webp);}
+    60%{background-image: url(../img/1581258961.jpg.webp);}
+    70%{background-image: url(../img/1581259004.jpg.webp);}
+    80%{background-image: url(../img/1581259123.jpg.webp);}
+    90%{background-image: url(../img/1581259085.jpg.webp);}
+    100%{background-image: url(../img/1581258612.jpg.webp);}
+}
+.completed, .current {
+    background-color: #f7e600;
+    width: 400px;
+    height: 250px;
+    border-top: 2px solid rgb(0, 0,0 ,0.2);
+    border-bottom: 2px solid rgb(0, 0,0 ,0.2);
+}
+.current {
+    background-color: #f7e700d0;
+    border-radius: 0px 10px 10px 0px;
+    border-top: 2px solid rgb(0, 0,0 ,0.2);
+    border-bottom: 2px solid rgb(0, 0,0 ,0.2);
+    border-right: 2px solid rgb(0, 0,0 ,0.2);
+}
+.box h2 {
+    margin: 30px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box p {
+    margin: 10px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box div span {
+    margin-left: 30px;
+    font-family: Mbold;
+    font-size: 100px;
+    color: #fff;
+    margin-top: 15px;
+    -webkit-text-stroke: 3px #fff; 
+    -webkit-text-fill-color: transparent; 
+}
+.what {
+    margin: 204px 800px;
+    font-size: 40px;
+}
+/* .....................service.................... */
+article {
+    width: 1600px;
+    margin:50px 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+article div {
+    width: 150px;
+    height: 350px;
+    padding: 15px;
+}
+.service-1 div,.service-2 div, .service-3 div,.service-4 div,.service-5 div,.service-6 div,.service-7 div,.service-8 div,.service-9 div,.service-10 div{
+    width: 120px;
+    height: 120px;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+.service-1 div {
+    background-image: url(../img/strategic.png);
+}
+.service-2 div {
+    background-image: url(../img/idea\ \(1\).png);
+}
+.service-3 div {
+    background-image: url(../img/computer\ \(1\).png);
+}
+.service-4 div {
+    background-image: url(../img/smartphone\ \(2\).png);
+}
+.service-5 div {
+    background-image: url(../img/searching\ \(1\).png);
+}
+.service-6 div {
+    background-image: url(../img/advertising\ \(1\).png);
+}
+.service-7 div {
+    background-image: url(../img/seo.png);
+}
+.service-8 div {
+    background-image: url(../img/hosting\ \(1\).png);
+}
+.service-9 div {
+    background-image: url(../img/cloud-service\ \(1\).png);
+}
+.service-10 div {
+    background-image: url(../img/maintenance\ \(1\).png);
+}
+
+.service-1 p, .service-2 p, .service-3 p, .service-4 p, .service-5 p, .service-6 p, 
+.service-7 p, .service-8 p, .service-9 p, .service-10 p {
+
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.service-1 a img, .service-2 a img, .service-3 a img, .service-4 a img, .service-5 a img, .service-6 a img, 
+.service-7 a img, .service-8 a img, .service-9 a img, .service-10 a img {
+
+   width: 50px;
+   height: 50px;
+   margin: 40px 40px;
+   border-radius:50%;
+   border: 2px solid #000000;
+}
+.service-1:hover {
+    background-color: #f7e600;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-1:hover p {
+    color: #ffffff;
+}
+.service-1:hover div {
+    background-image: url(../img/strategy.png);
+    transition: 1s;
+}
+.service-2:hover {
+    background-color: #f77700;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-2:hover p {
+    color: #ffffff;
+}
+.service-2:hover div {
+    background-image: url(../img/idea.png);
+    transition: 1s;
+}
+.service-3:hover {
+    background-color: #003af7;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-3:hover p {
+    color: #ffffff;
+}
+.service-3:hover div {
+    background-image: url(../img/computer.png);
+    transition: 1s;
+}
+.service-4:hover {
+    background-color: #8800f7;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-4:hover p {
+    color: #ffffff;
+}
+.service-4:hover div {
+    background-image: url(../img/smartphone\ \(1\).png);
+    transition: 1s;
+}
+.service-5:hover {
+    background-color: #0094f7;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-5:hover p {
+    color: #ffffff;
+}
+.service-5:hover div {
+    background-image: url(../img/searching.png);
+    transition: 1s;
+}
+.service-6:hover {
+    background-color: #f70067;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-6:hover p {
+    color: #ffffff;
+}
+.service-6:hover div {
+    background-image: url(../img/advertising.png);
+    transition: 1s;
+}
+.service-7:hover {
+    background-color: #f700e3;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-7:hover p {
+    color: #ffffff;
+}
+.service-7:hover div {
+    background-image: url(../img/seo\ \(1\).png);
+    transition: 1s;
+}
+.service-8:hover {
+    background-color: #006bf7;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-8:hover p {
+    color: #ffffff;
+}
+.service-8:hover div {
+    background-image: url(../img/hosting.png);
+    transition: 1s;
+}
+.service-9:hover {
+    background-color: #f70000;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-9:hover p {
+    color: #ffffff;
+}
+.service-9:hover div {
+    background-image: url(../img/cloud-service.png);
+    transition: 1s;
+}
+.service-10:hover {
+    background-color: #00f715;
+    padding: 0px 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+.service-10:hover p {
+    color: #ffffff;
+}
+.service-10:hover div {
+    background-image: url(../img/maintenance.png);
+    transition: 1s;
+}
+.letest {
+    margin: 100px 800px;
+    font-size: 40px;
+}
+/* ...........slider................. */
+.owl-theme .owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+    left: 20;
+    display: flex;
+    justify-content: space-between;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    font-size: 100px !important;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: rgb(0, 0, 0, 0);
+    color: #121212;
+}
+.blogtext {
+    margin: 100px 900px;
+    font-size: 40px;
+}
+/* ................blog..................... */
+.blogbox {
+    width: 1600px;
+    margin: 105px 105px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.blog{
+    background-color: #003af7;
+    width: 850px;
+    height: 700px; 
+    border-radius:  20px 20px 20px 20px;
+    background-image: url(../img/blog1.webp); 
+    background-repeat: no-repeat; 
+    cursor: pointer;
+    position: relative;
+}
+.blog:hover {
+    box-shadow: 10px 10px 20px solid #003af7;
+    transition: 1s;
+}
+.blog h3 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 24px;
+    left: 50px;
+    top: 600px;
+    padding-bottom: 10px;
+    border-bottom:2px solid #000000;
+}
+.blogconteiner div {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 20px 20px 20px 20px;
+}
+.blogconteiner-1 {
+    background-image: url(../img/blog111.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    position: relative;
+}
+.blogconteiner-2 {
+    background-image: url(../img/blog\ 3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    position: relative;
+}
+.blogconteiner-3 {
+    background-image: url(../img/blog\ 4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+     position: relative; 
+}
+.blogconteiner div h3 {
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+/* .................footer.................... */
+
+footer {
+    background-color: #cecece;
+    width: 100%;
+    margin-top: 100px;
+    border-top: 2px solid rgb(0, 0, 0, 0.2);
+}
+.footerbox {
+    width: 900px;
+    margin: 150px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add,.pone,.email {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.add div, .email div, .pone div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.add div {
+    background-image: url(../img/placeholder.png);
+}
+.email div {
+    background-image: url(../img/email.png);
+}
+.pone div {
+    background-image: url(../img/telephone.png);
+}
+.a {
+    font-size: 24px;
+    margin-left: 30px;
+}
+.lokal {
+    color: #5c5c5c;
+}
+.mail-1 {
+     width: 200px;
+}
+.social {
+     width: 500px;
+     margin: 200px auto;
+     display: flex;
+     justify-content: space-between;
+}
+.social div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.fb {
+    background-image: url(../img/facebook.png);
+}
+.fb:hover{
+    background-image: url(../img/facebook\ \(1\).png);
+}
+.tviter {
+    background-image: url(../img/twitter.png);
+}
+.tviter:hover {
+    background-image: url(../img/twitter\ \(1\).png);
+}
+.insta {
+    background-image: url(../img/instagram.png);
+}
+.insta:hover {
+    background-image: url(../img/instagram\ \(1\).png);
+}
+.in{
+background-image: url(../img/linkedin.png);
+}
+.in:hover{
+background-image: url(../img/linkedin\ \(1\).png);
+}
+.gmail {
+    background-image: url(../img/email\ \(1\).png);
+}
+.gmail:hover{
+    background-image: url(../img/gmail.png);
+}
+.youtube {
+    background-image: url(../img/youtube.png);
+}
+.youtube:hover {
+    background-image: url(../img/youtube\ \(1\).png);
+}
+b {
+    margin-left: 860px;
+}
+.topge{
+    width: 200px;
+    height: 70px;
+    margin: 10px auto;
+    margin-bottom: 100px;
+    background-image: url(../img/count);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .nav1 ul {
+        margin-left: 100px;
+    }
+    .box {
+         width: 900px;
+         margin-left: -100px;
+    }
+    .completed, .current {
+        width: 450px; 
+    }
+    .what {
+        margin: 408px 318px;
+    }
+    /* <!-- ...................service......................... --> */
+    .letest {
+        margin: 100px 334px;
+    }
+    article {
+        width: 800px;
+        margin-left: 100px;
+        justify-content: space-between;
+    }
+    article div {
+        display: flex;
+        align-items: center;
+    }
+    article div a {
+        display: none;
+    }
+    .service-1 , .service-2 , .service-3 , .service-4 , .service-5 , .service-6 , 
+    .service-7 , .service-8 , .service-9 , .service-10 {
+    width: 380px;
+    height: 200px;
+    border-top: 2px solid rgb(0, 0, 0, 0.2);
+    border: 20px 20px 20px 20px;
+    }
+    .blogtext {
+        margin: 100px 510px;
+    }
+    /* .................blog...................... */
+    .blogbox {
+        width: 900px;
+        margin-left: 100px;
+    }
+    .blogconteiner {
+        width: 900px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .......................footer.................................. */
+    .footerbox {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
