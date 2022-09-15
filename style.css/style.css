@@ -375,8 +375,8 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* ................blog..................... */
 .blogbox {
-    width: 85%px;
-    margin: 105px 105px;
+    width: 85%;
+    margin: 105px 10px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -886,6 +886,14 @@ b {
         right: 5px;
         top: 10px;
     }
+    .slide-4 {
+        display: none; 
+    }
+    .slide, .completed, .current{
+        width: 100%;
+        border: 1px solid #757575;
+        border-radius: 10px 10px 10px 10px;
+    }
     .open img {
         width: 30px ;
         height: 30px ;
@@ -967,11 +975,21 @@ b {
     }
     /* ...........contact........... */
 }
+@media only screen and (max-width: 700px) {
+    .statia {
+        display: block;
+    }
+    .popular {
+        background-color: #fffefe;
+        box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
+    }
+
+}
 
 @media only screen and (max-width: 414px){
     header {
         height: 150px;
-        position: relative;
+        
     }
     h1 a img {
         margin-left: 10px;
@@ -990,6 +1008,9 @@ b {
         position:absolute;
         right: 5px;
         top: 10px;
+    }
+    .slide-2 {
+        margin-left: 174px;
     }
     .open img {
         width: 30px ;
