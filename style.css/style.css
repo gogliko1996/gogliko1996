@@ -147,24 +147,24 @@ li a:hover{
     -webkit-text-fill-color: transparent; 
 }
 .what {
-    margin: 204px 800px;
+    margin: 204px 39%;
     font-size: 40px;
 }
 /* .....................service.................... */
 article {
-    width: 85%;
-    margin:50px 150px;
+    width: 90%;
+    margin:50px 5%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 article div {
-    width: 100px;
+    width: 10%;
     height: 350px;
     padding: 15px;
 }
 .service-1 div,.service-2 div, .service-3 div,.service-4 div,.service-5 div,.service-6 div,.service-7 div,.service-8 div,.service-9 div,.service-10 div{
-    width: 30%px;
+    width: 85%;
     height: 120px;
     background-repeat:no-repeat;
     background-size: 100%;
@@ -219,7 +219,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    border-radius:50%;
    border: 2px solid #000000;
 }
-.service-1:hover {
+.service-1:hover{
     background-color: #f7e600;
     padding: 0px 15px;
     transition: 1s;
@@ -230,7 +230,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-1:hover div {
     background-image: url(../img/strategy.png);
-    transition: 1s;
 }
 .service-2:hover {
     background-color: #f77700;
@@ -243,7 +242,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-2:hover div {
     background-image: url(../img/idea.png);
-    transition: 1s;
 }
 .service-3:hover {
     background-color: #003af7;
@@ -256,7 +254,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-3:hover div {
     background-image: url(../img/computer.png);
-    transition: 1s;
 }
 .service-4:hover {
     background-color: #8800f7;
@@ -269,7 +266,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-4:hover div {
     background-image: url(../img/smartphone\ \(1\).png);
-    transition: 1s;
 }
 .service-5:hover {
     background-color: #0094f7;
@@ -282,7 +278,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-5:hover div {
     background-image: url(../img/searching.png);
-    transition: 1s;
 }
 .service-6:hover {
     background-color: #f70067;
@@ -295,7 +290,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-6:hover div {
     background-image: url(../img/advertising.png);
-    transition: 1s;
 }
 .service-7:hover {
     background-color: #f700e3;
@@ -308,7 +302,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-7:hover div {
     background-image: url(../img/seo\ \(1\).png);
-    transition: 1s;
 }
 .service-8:hover {
     background-color: #006bf7;
@@ -321,7 +314,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-8:hover div {
     background-image: url(../img/hosting.png);
-    transition: 1s;
 }
 .service-9:hover {
     background-color: #f70000;
@@ -334,7 +326,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-9:hover div {
     background-image: url(../img/cloud-service.png);
-    transition: 1s;
 }
 .service-10:hover {
     background-color: #00f715;
@@ -347,7 +338,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .service-10:hover div {
     background-image: url(../img/maintenance.png);
-    transition: 1s;
 }
 .letest {
     margin: 100px 800px;
@@ -599,10 +589,10 @@ footer {
     background-image: url(../img/instagram\ \(1\).png);
 }
 .in{
-background-image: url(../img/linkedin.png);
+     background-image: url(../img/linkedin.png);
 }
 .in:hover{
-background-image: url(../img/linkedin\ \(1\).png);
+     background-image: url(../img/linkedin\ \(1\).png);
 }
 .gmail {
     background-image: url(../img/email\ \(1\).png);
@@ -626,7 +616,11 @@ b {
     margin-bottom: 100px;
     background-image: url(../img/count);
     background-repeat: no-repeat;
-}    
+}  
+/* .................slider-2..............   */
+.owl-carousel {
+    width: 100% !important;
+}
     /* ..................services.html...................... */
     section {
         width: 85%;
@@ -906,7 +900,7 @@ b {
         width: 450px; 
     }
     .what {
-        margin: 408px 318px;
+        margin: 671px 20%;
     }
     /* <!-- ...................service......................... --> */
     .letest {
@@ -914,10 +908,12 @@ b {
     }
     article {
         width: 85%;
-        margin-left: 10%;
+        margin:-580px 10%;
+        margin-bottom: 50px;
         justify-content: space-between;
     }
     article div {
+        height: 10px;
         display: flex;
         align-items: center;
     }
@@ -926,10 +922,13 @@ b {
     }
     .service-1 , .service-2 , .service-3 , .service-4 , .service-5 , .service-6 , 
     .service-7 , .service-8 , .service-9 , .service-10 {
-    width: 380px;
+    width: 48%;
     height: 200px;
     border-top: 2px solid rgb(0, 0, 0, 0.2);
     border: 20px 20px 20px 20px;
+    }
+    .service-1 div,.service-2 div, .service-3 div,.service-4 div,.service-5 div,.service-6 div,.service-7 div,.service-8 div,.service-9 div,.service-10 div {
+        width: 33%;
     }
     .blogtext {
         margin: 100px 510px;
@@ -1042,7 +1041,7 @@ b {
         border-radius: 20px 20px 20px 20px;
     }
     .what {
-        margin: 710px 50px;
+        margin: 770px 50px;
     }
     /*  /.............slider............. */
     .owl-theme .owl-nav {
@@ -1050,8 +1049,9 @@ b {
     }
     /* ....................service................. */
     article {
-        width: 250px;
-        margin-top: 58px;
+        width: 95%;
+        margin-top: -730px !important;
+        display: block;
     }
     .letest {
         margin-left: 178px;
