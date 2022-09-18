@@ -442,10 +442,11 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         position: absolute;
         position: fixed;
         z-index: 1;
-        right: 30px;
+        right: 5%;
         top: 700px;
         box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
         border-radius: 20px 20px 20px 20px;
+        opacity: 2;
     }
     .msglogo:hover{
         width: 72px;
@@ -846,6 +847,58 @@ b {
         font-size: 20px;
         color: #5c5c5c;
     }
+    /* ...........register.............. */
+    .background-color{
+        background-color: #000000;
+    }
+    .regist{
+        background-color: #f7e600;
+        width: 40%;
+        margin: 50px auto;
+        padding: 4%;
+        border-radius: 20px;
+        align-items: center;
+    }
+    img {
+        width: 50%;
+        margin-top: -90px;
+    }
+    .regist input[type=text],[type="email"],[type="password"]{
+        width: 95%;
+        height: 50px;
+        margin: 10px auto;
+        resize: none;
+        border: none;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+    }
+    .regist input[type="datetime-local"]{
+        width: 40%;
+        border: none;
+        margin-right: 60%;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+
+    }
+    .regist p {
+        background-color: #000000;
+        width: 50%;
+        height: 50px;
+        margin: 20px auto;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .regist p a {
+        width: 100%;
+        padding-bottom: 30px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .regist p:hover {
+        background-color: #333333;
+        box-shadow: 2px 5px 5px solid #c0c0c0;
+        cursor: pointer;
+    }
+
+    
 
 
    
@@ -973,6 +1026,10 @@ b {
         height: 800px;
     }
     /* ...........contact........... */
+    .popular {
+        background-color: #fffefe;
+        box-shadow: 0px 0px 0px rgb(0, 0, 0, 0);
+    }
 }
 @media only screen and (max-width: 700px) {
     .statia {
