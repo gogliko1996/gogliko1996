@@ -860,7 +860,7 @@ b {
         border-radius: 20px;
         align-items: center;
     }
-    img {
+    .reimg {
         width: 50%;
         margin-top: -170px;
     }
